@@ -4,13 +4,13 @@
 This project exmamines the findindings of _Assignment 7.1, which examines the effect of marekting campaigns on having customers sign up for long term subscription deposits (these wouold be CDs in the US)_: for the Professional Certificate in Machine Learning and Artificial Intelligence from UC Berkely.  The bulk of the work is in the prompt_III.ipynb
 
 ## Results
-- _The SVC model with a linear kernel had the best recall results_ 
-    - _Optimizing for recall is important as we want to ensure we don't miss candidates likely to make a long term deposit subscription_
-    - _It also is slow to train and difficult to optimize_
-- _Oddly a decision Tree of depth 2 had relatively decent results_
-- _The KNN model required resampling the data for the KNN classifier to achieve parity with the other classifiers.  It also had the highest precsion_
-- _In general, one can see the tradeoff between precision and recall driving one higher tends to driver the other lower_ 
-- _Using logistic regression to deteremine the important Coefficients and then training a SVM model can be very benficial to reduce tcompute time_
+- The SVC model with a linear kernel had the best recall results_ 
+    - Optimizing for recall is important as we want to ensure we don't miss candidates likely to make a long term deposit subscription_
+    - It also is slow to train and difficult to optimize_
+- Oddly a decision Tree of depth 2 had relatively decent results_
+- The KNN model required resampling the data for the KNN classifier to achieve parity with the other classifiers.  It also had the highest precsion_
+- In general, one can see the tradeoff between precision and recall driving one higher tends to driver the other lower_ 
+- Using logistic regression to deteremine the important Coefficients and then training a SVM model can be very benficial to reduce tcompute time
 
 ### _Conclusions_
 - _The fact that the decision tree decided to use the number of employees at the bank warrants further investigation to determine why?_
