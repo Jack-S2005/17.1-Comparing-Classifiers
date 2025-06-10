@@ -12,7 +12,7 @@ This project exmamines the findindings of _Assignment 7.1, which examines the ef
 - In general, one can see the tradeoff between precision and recall driving one higher tends to driver the other lower 
 - Using logistic regression to deteremine the important Coefficients and then training a SVM model can be very benficial to reduce tcompute time
 
-### _Conclusions_
+### Conclusions
 - The fact that the decision tree decided to use the number of employees at the bank warrants further investigation to determine why?
     - Is it acatually a leading or trailing economic indicator?
     - Are there a core group of people who are augmented by seasonal employees?
